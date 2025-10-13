@@ -122,10 +122,10 @@ def update_task(
     }
 
     # Vérifie si au moins une colonne à mettre à jour a été renseignée
-    verif_columns: bool = Any(Tuple(columns.values()))
+    verif_columns: bool = any(tuple(columns.values()))
 
     # Vérifie si au moins un critère de sélection a été renseigné
-    verif_options: bool = Any(Tuple(options.values()))
+    verif_options: bool = any(tuple(options.values()))
 
     # Logique de validation des entrées utilisateur :
     
