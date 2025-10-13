@@ -45,6 +45,14 @@ Assurez-vous d'avoir **Python** installé sur votre système.
     pip install -r requirements.txt
     ```
 
+3.  **Initialisez la base de données :**
+    Après avoir installé les dépendances, vous devez initialiser la base de données SQLite3 en créant la structure de table nécessaire.
+
+    ```bash
+    python main.py reset table --reset
+    ```
+💡 Note : Cette commande crée la table de tâches. Si elle existe déjà, l'option --reset force sa recréation, supprimant toute donnée existante.
+
 -----
 
 ## Utilisation
