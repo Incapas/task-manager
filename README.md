@@ -34,7 +34,7 @@ Assurez-vous d'avoir **Python** installé sur votre système.
 1.  **Clonez le dépôt :**
 
     ```bash
-    git clone [URL_DE_VOTRE_DEPOT]
+    git clone [URL_DEPOT]
     cd [NOM_DU_DEPOT]
     ```
 
